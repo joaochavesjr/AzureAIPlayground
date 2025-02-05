@@ -11,17 +11,20 @@ Também foi possível obervar um fragmento de código python, demonstrando o uso
 
 E agora diretamente relacionado com o resultado dos prompts, entendemos a relação Temperatura X Top-P, que permite melhorar a "criatividade" e a variação de respostas diferentes.
 
-No caso a temperatura é a configuração de pegar palavras enquanto há a criação de texto, controlando o quão randômico podem ser as ligações;
+No caso a temperatura é a configuração de pegar palavras enquanto há a criação de texto, controlando o quão randômico podem ser as ligações.
 
 Temperatura menor (0): Respostas muito previsíveis, determinísticas;
+
 Temperatura maior (1): Respostas muito improváveis, sem sentido (Brainstorm).
+
 
 Top-P: Quais palavras podem ser usadas na possível escolha.
 
 Top-P 0.1: Considera o primeiro eixo de palavras prováveis, até dar 10% das possibilidades;
+
 Top-P 0.9: Considera muitas palavras até dar o eixo de 90% das possibilidades;
 
-NOTA: Use variações de Top-P ou temperatura, raramente ambos.
+**NOTA**: Use variações de Top-P ou temperatura, raramente ambos.
 
 Não existe valores definidos, é necessário ajustar e testar o modelo com os prompts variando os valores de temperatura e Top-P para achar o melhor resultado, podemos considerar as melhores práticas:
 
